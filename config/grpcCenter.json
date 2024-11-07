@@ -1,0 +1,12 @@
+{
+  "serviceName": "AuthRpcService",
+  "serviceAddress": "127.0.0.1:8100",
+  "serviceID": "1",
+  "expire": 60,
+  "network": "tcp",
+  "etcd3": {
+    "hosts": "http://127.0.0.1:2379",
+    "appConfigKey": "/blog/config.yaml",
+    "grpcConfigKey": "/blog/config.yaml"
+  }
+}
